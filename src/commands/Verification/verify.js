@@ -8,7 +8,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
     data: new SlashCommandBuilder()
         .setName('verify')
-        .setDescription('Verify yourself and gain access to the server'),
+        .setDescription('Valune <3: Verify yourself and gain access to the server'),
 
     async execute(interaction, config, client) {
         const wrappedExecute = withErrorHandling(async () => {
@@ -39,7 +39,7 @@ export default {
             await InteractionHelper.safeReply(interaction, {
                 embeds: [successEmbed(
                     "Verification Complete",
-                    `You have been verified and given the **${result.roleName}** role! Welcome to the server! 🎉`
+                    `You have been verified and given the **${result.roleName}** role! Welcome to the server! <3`
                 )],
                 flags: MessageFlags.Ephemeral
             });
