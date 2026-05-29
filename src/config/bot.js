@@ -63,9 +63,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#FFC0CB",
+      approved: "#ff69b4",
+      denied: "#cc3366",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#db7093", 
+      secondary: "#ffb6c1", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Valune",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -421,13 +421,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    noPermission: "Valune<3: You do not have permission to use this command.",
+    cooldownActive: "Valune <3: Please wait {time} before using this command again.",
+    errorOccurred: "Valune <3: An error occurred while executing this command.",
     missingPermissions:
       "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+    commandDisabled: "Valune <3: This command has been disabled.",
+    maintenanceMode: "Valune <3: The bot is currently in maintenance mode.",
   },
 
   // =========================
